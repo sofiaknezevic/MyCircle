@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-554" y="137"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="rbi-Dm-COJ">
             <objects>
-                <tabBarController id="bpO-se-QX3" sceneMemberID="viewController">
+                <tabBarController id="bpO-se-QX3" customClass="MainTabBarViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Y41-z6-kUG"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ieS-lf-B4f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -37,10 +37,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="bDX-ii-NQX" kind="show" identifier="goToMyCircle" id="Vh2-Bh-wwT"/>
-                        <segue destination="TuP-jD-AIA" kind="show" identifier="goToFeed" id="JzY-SD-fwg"/>
-                        <segue destination="CmH-u2-mjW" kind="show" id="rYj-Gt-ba9"/>
-                        <segue destination="igc-nS-Kh4" kind="show" id="jxo-rC-0d5"/>
-                        <segue destination="nzY-Q9-vkO" kind="show" id="IbB-q6-2Aj"/>
+                        <segue destination="CmH-u2-mjW" kind="show" identifier="goToPrograms" id="rYj-Gt-ba9"/>
+                        <segue destination="igc-nS-Kh4" kind="show" identifier="goToMyHealth" id="jxo-rC-0d5"/>
+                        <segue destination="nzY-Q9-vkO" kind="show" identifier="goToProfile" id="IbB-q6-2Aj"/>
+                        <segue destination="TuP-jD-AIA" kind="show" identifier="goToFeed" id="oCk-Re-We6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wm3-p1-5Jc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -58,7 +58,9 @@
         <!--Feed-->
         <scene sceneID="sb0-ym-zbi">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="FeedStoryBoard" storyboardName="Feed" id="TuP-jD-AIA" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="FeedStoryBoard" storyboardName="Feed" id="TuP-jD-AIA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="3OW-UZ-AKe"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZ6-ar-W3p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1136" y="-171"/>

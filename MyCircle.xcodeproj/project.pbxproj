@@ -23,6 +23,7 @@
 		5D95D2C91EB57C10001C312B /* ProgramsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2C81EB57C10001C312B /* ProgramsViewController.m */; };
 		5D95D2CC1EB57C17001C312B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2CB1EB57C17001C312B /* ProfileViewController.m */; };
 		5D95D2CF1EB57C1D001C312B /* MyHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2CE1EB57C1D001C312B /* MyHealthViewController.m */; };
+		5DDF12001EB6517D00EFF8D6 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF11FF1EB6517D00EFF8D6 /* MainTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		5D95D2CB1EB57C17001C312B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		5D95D2CD1EB57C1D001C312B /* MyHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHealthViewController.h; sourceTree = "<group>"; };
 		5D95D2CE1EB57C1D001C312B /* MyHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHealthViewController.m; sourceTree = "<group>"; };
+		5DDF11FE1EB6517D00EFF8D6 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		5DDF11FF1EB6517D00EFF8D6 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				5D95D2CB1EB57C17001C312B /* ProfileViewController.m */,
 				5D95D2CD1EB57C1D001C312B /* MyHealthViewController.h */,
 				5D95D2CE1EB57C1D001C312B /* MyHealthViewController.m */,
+				5DDF11FE1EB6517D00EFF8D6 /* MainTabBarViewController.h */,
+				5DDF11FF1EB6517D00EFF8D6 /* MainTabBarViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				5D95D29C1EB56740001C312B /* AppDelegate.m in Sources */,
 				5D95D2CC1EB57C17001C312B /* ProfileViewController.m in Sources */,
 				5D95D2B31EB568C4001C312B /* MyCircleViewController.m in Sources */,
+				5DDF12001EB6517D00EFF8D6 /* MainTabBarViewController.m in Sources */,
 				5D95D2CF1EB57C1D001C312B /* MyHealthViewController.m in Sources */,
 				5D95D2991EB56740001C312B /* main.m in Sources */,
 			);
@@ -384,6 +390,7 @@
 				5D95D2AD1EB56740001C312B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
