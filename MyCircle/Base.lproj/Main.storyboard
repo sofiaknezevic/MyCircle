@@ -13,8 +13,8 @@
         <scene sceneID="Lzr-9X-fOT">
             <objects>
                 <navigationController id="eN3-ri-TGJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Circle" id="d8S-ix-kPc"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Xti-G0-P7z">
+                    <tabBarItem key="tabBarItem" title="My Circle" image="myCircle" id="d8S-ix-kPc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="Xti-G0-P7z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.62842977050000004" blue="0.82437378169999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -65,7 +65,7 @@
             <objects>
                 <navigationController id="QFX-ws-hKr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Feed" image="feed" id="Imn-wE-ees"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RdA-K5-If7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="RdA-K5-If7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -81,7 +81,7 @@
         <scene sceneID="e8E-EJ-k0u">
             <objects>
                 <navigationController id="Fix-HG-bD6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Programs" id="ZoR-wj-BrK"/>
+                    <tabBarItem key="tabBarItem" title="Programs" image="programs" id="ZoR-wj-BrK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ppu-0T-sv0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -137,7 +137,7 @@
         <scene sceneID="I9d-Ne-sni">
             <objects>
                 <navigationController id="39g-3l-leM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="7mu-aw-ueB"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="7mu-aw-ueB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YW0-Ly-6ml">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -176,5 +176,8 @@
     </scenes>
     <resources>
         <image name="feed" width="25" height="25"/>
+        <image name="myCircle" width="25" height="25"/>
+        <image name="profile" width="25" height="25"/>
+        <image name="programs" width="25" height="25"/>
     </resources>
 </document>

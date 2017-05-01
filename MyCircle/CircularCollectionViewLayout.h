@@ -10,4 +10,7 @@
 
 @interface CircularCollectionViewLayout : UICollectionViewLayout
 
+@property (nonatomic, assign) CGPoint center;
+@property (nonatomic, assign) CGFloat radius;
+
 @end

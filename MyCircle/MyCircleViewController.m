@@ -11,6 +11,8 @@
 
 @interface MyCircleViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UICollectionView *circularCollectionView;
+
 @end
 
 @implementation MyCircleViewController
@@ -18,13 +20,14 @@
 #pragma mark - ViewController LifeCycle -
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
+
 
 
 #pragma mark - CollectionView Delegate & DataSource -
