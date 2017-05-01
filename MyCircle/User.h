@@ -10,4 +10,9 @@
 
 @interface User : NSObject
 
+@property (nonatomic) NSString *displayName;
+@property (nonatomic) BOOL isOnline;
+@property (nonatomic) BOOL hasAccepted;
+@property (nonatomic) int notificationCount;
+
 @end

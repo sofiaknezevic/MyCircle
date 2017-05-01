@@ -13,7 +13,6 @@
 		5D95D2A41EB56740001C312B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2A31EB56740001C312B /* Assets.xcassets */; };
 		5D95D2A71EB56740001C312B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2A51EB56740001C312B /* LaunchScreen.storyboard */; };
 		5D95D2B31EB568C4001C312B /* MyCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2B21EB568C4001C312B /* MyCircleViewController.m */; };
-		5D95D2B81EB57A11001C312B /* MyCircle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2B71EB57A11001C312B /* MyCircle.storyboard */; };
 		5D95D2BA1EB57AEE001C312B /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2B91EB57AEE001C312B /* Feed.storyboard */; };
 		5D95D2BC1EB57B55001C312B /* Programs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2BB1EB57B55001C312B /* Programs.storyboard */; };
 		5D95D2BE1EB57B5F001C312B /* MyHealth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2BD1EB57B5F001C312B /* MyHealth.storyboard */; };
@@ -23,7 +22,9 @@
 		5D95D2C91EB57C10001C312B /* ProgramsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2C81EB57C10001C312B /* ProgramsViewController.m */; };
 		5D95D2CC1EB57C17001C312B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2CB1EB57C17001C312B /* ProfileViewController.m */; };
 		5D95D2CF1EB57C1D001C312B /* MyHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2CE1EB57C1D001C312B /* MyHealthViewController.m */; };
-		5DDF12001EB6517D00EFF8D6 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF11FF1EB6517D00EFF8D6 /* MainTabBarViewController.m */; };
+		5DDF12051EB6BB1900EFF8D6 /* MyCircle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDF12041EB6BB1900EFF8D6 /* MyCircle.storyboard */; };
+		5DDF12091EB6BFA000EFF8D6 /* UserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF12081EB6BFA000EFF8D6 /* UserCollectionViewCell.m */; };
+		5DDF120F1EB6C35500EFF8D6 /* CircularCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF120E1EB6C35500EFF8D6 /* CircularCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,6 @@
 		5D95D2A81EB56740001C312B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D95D2B11EB568C4001C312B /* MyCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircleViewController.h; sourceTree = "<group>"; };
 		5D95D2B21EB568C4001C312B /* MyCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircleViewController.m; sourceTree = "<group>"; };
-		5D95D2B71EB57A11001C312B /* MyCircle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCircle.storyboard; sourceTree = "<group>"; };
 		5D95D2B91EB57AEE001C312B /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		5D95D2BB1EB57B55001C312B /* Programs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Programs.storyboard; sourceTree = "<group>"; };
 		5D95D2BD1EB57B5F001C312B /* MyHealth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyHealth.storyboard; sourceTree = "<group>"; };
@@ -52,8 +52,11 @@
 		5D95D2CB1EB57C17001C312B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		5D95D2CD1EB57C1D001C312B /* MyHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHealthViewController.h; sourceTree = "<group>"; };
 		5D95D2CE1EB57C1D001C312B /* MyHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHealthViewController.m; sourceTree = "<group>"; };
-		5DDF11FE1EB6517D00EFF8D6 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
-		5DDF11FF1EB6517D00EFF8D6 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		5DDF12041EB6BB1900EFF8D6 /* MyCircle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCircle.storyboard; sourceTree = "<group>"; };
+		5DDF12071EB6BFA000EFF8D6 /* UserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCollectionViewCell.h; sourceTree = "<group>"; };
+		5DDF12081EB6BFA000EFF8D6 /* UserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCollectionViewCell.m; sourceTree = "<group>"; };
+		5DDF120D1EB6C35500EFF8D6 /* CircularCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularCollectionViewLayout.h; sourceTree = "<group>"; };
+		5DDF120E1EB6C35500EFF8D6 /* CircularCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 			children = (
 				5D95D29A1EB56740001C312B /* AppDelegate.h */,
 				5D95D29B1EB56740001C312B /* AppDelegate.m */,
+				5DDF12061EB6BF8400EFF8D6 /* Views */,
 				5D95D2B61EB568EE001C312B /* Models */,
 				5D95D2B51EB568D4001C312B /* ViewControllers */,
 				5D95D2B41EB568CC001C312B /* StoryBoards */,
@@ -110,11 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				5D95D2A01EB56740001C312B /* Main.storyboard */,
+				5DDF12041EB6BB1900EFF8D6 /* MyCircle.storyboard */,
 				5D95D2BD1EB57B5F001C312B /* MyHealth.storyboard */,
 				5D95D2BF1EB57B67001C312B /* Profile.storyboard */,
 				5D95D2BB1EB57B55001C312B /* Programs.storyboard */,
 				5D95D2B91EB57AEE001C312B /* Feed.storyboard */,
-				5D95D2B71EB57A11001C312B /* MyCircle.storyboard */,
 				5D95D2A51EB56740001C312B /* LaunchScreen.storyboard */,
 			);
 			name = StoryBoards;
@@ -133,8 +137,6 @@
 				5D95D2CB1EB57C17001C312B /* ProfileViewController.m */,
 				5D95D2CD1EB57C1D001C312B /* MyHealthViewController.h */,
 				5D95D2CE1EB57C1D001C312B /* MyHealthViewController.m */,
-				5DDF11FE1EB6517D00EFF8D6 /* MainTabBarViewController.h */,
-				5DDF11FF1EB6517D00EFF8D6 /* MainTabBarViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -146,6 +148,17 @@
 				5D95D2C21EB57BB6001C312B /* User.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		5DDF12061EB6BF8400EFF8D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DDF12071EB6BFA000EFF8D6 /* UserCollectionViewCell.h */,
+				5DDF12081EB6BFA000EFF8D6 /* UserCollectionViewCell.m */,
+				5DDF120D1EB6C35500EFF8D6 /* CircularCollectionViewLayout.h */,
+				5DDF120E1EB6C35500EFF8D6 /* CircularCollectionViewLayout.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,11 +222,11 @@
 			files = (
 				5D95D2BA1EB57AEE001C312B /* Feed.storyboard in Resources */,
 				5D95D2A71EB56740001C312B /* LaunchScreen.storyboard in Resources */,
+				5DDF12051EB6BB1900EFF8D6 /* MyCircle.storyboard in Resources */,
 				5D95D2C01EB57B67001C312B /* Profile.storyboard in Resources */,
 				5D95D2A41EB56740001C312B /* Assets.xcassets in Resources */,
 				5D95D2BC1EB57B55001C312B /* Programs.storyboard in Resources */,
 				5D95D2BE1EB57B5F001C312B /* MyHealth.storyboard in Resources */,
-				5D95D2B81EB57A11001C312B /* MyCircle.storyboard in Resources */,
 				5D95D2A21EB56740001C312B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,8 +243,9 @@
 				5D95D2C61EB57C05001C312B /* FeedViewController.m in Sources */,
 				5D95D29C1EB56740001C312B /* AppDelegate.m in Sources */,
 				5D95D2CC1EB57C17001C312B /* ProfileViewController.m in Sources */,
+				5DDF120F1EB6C35500EFF8D6 /* CircularCollectionViewLayout.m in Sources */,
 				5D95D2B31EB568C4001C312B /* MyCircleViewController.m in Sources */,
-				5DDF12001EB6517D00EFF8D6 /* MainTabBarViewController.m in Sources */,
+				5DDF12091EB6BFA000EFF8D6 /* UserCollectionViewCell.m in Sources */,
 				5D95D2CF1EB57C1D001C312B /* MyHealthViewController.m in Sources */,
 				5D95D2991EB56740001C312B /* main.m in Sources */,
 			);

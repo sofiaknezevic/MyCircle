@@ -1,5 +1,5 @@
 //
-//  MainTabBarViewController.h
+//  UserCollectionViewCell.h
 //  MyCircle
 //
 //  Created by Sofia Knezevic on 2017-04-30.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainTabBarViewController : UITabBarController
+@interface UserCollectionViewCell : UICollectionViewCell
 
 @end
