@@ -16,8 +16,8 @@
     
     CGSize size = self.collectionView.frame.size;
     
-    self.center = CGPointMake(size.width/2.0, size.height/2.0);
-    self.radius = MIN(size.width, size.height) / 2.5;
+    self.center = CGPointMake(size.width/2.0, size.height/2.5);
+    self.radius = MIN(size.width, size.height) / 3;
 }
 
 - (CGSize)collectionViewContentSize {
@@ -30,8 +30,8 @@
     
     UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     
-    attributes.size = CGSizeMake(70, 70);
-    attributes.center = CGPointMake(self.center.x + self.radius * cosf(2 * indexPath.item * M_PI / 9), self.center.y + self.radius * sinf(2 * indexPath.item * M_PI / 9));
+    attributes.size = CGSizeMake(80, 80);
+    attributes.center = CGPointMake(self.center.x + self.radius * cosf(2 * indexPath.item * M_PI / 8), self.center.y + self.radius * sinf(2 * indexPath.item * M_PI / 8));
     
     return attributes;
     
@@ -40,7 +40,7 @@
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
     
     NSMutableArray *attributes = [NSMutableArray array];
-    for (int i = 0; i<9; i++) {
+    for (int i = 0; i<8; i++) {
         
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:0];
         [attributes addObject:[self layoutAttributesForItemAtIndexPath:indexPath]];

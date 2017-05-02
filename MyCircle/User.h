@@ -15,4 +15,7 @@
 @property (nonatomic) BOOL hasAccepted;
 @property (nonatomic) int notificationCount;
 
+//This imageName property is only for testing purposes. In production stage there would have to be logic added to incorporate users picking their own images.
+@property (nonatomic) NSString *userImageName;
+
 @end
