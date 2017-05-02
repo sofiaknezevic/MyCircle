@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    [[UITabBar appearance] setTintColor:[UIColor blackColor]];
     
     return YES;
 }

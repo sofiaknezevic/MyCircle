@@ -32,9 +32,32 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQz-lR-bEm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noNameGirl" translatesAutoresizingMaskIntoConstraints="NO" id="Bhz-va-Ogv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                                </imageView>
+                                            </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Bhz-va-Ogv" firstAttribute="centerY" secondItem="hQz-lR-bEm" secondAttribute="centerY" id="FqA-ET-Dig"/>
+                                            <constraint firstItem="Bhz-va-Ogv" firstAttribute="width" secondItem="hQz-lR-bEm" secondAttribute="width" id="Gmn-n6-Pyb"/>
+                                            <constraint firstItem="hQz-lR-bEm" firstAttribute="width" secondItem="Vdt-ug-DRJ" secondAttribute="width" id="HZX-xj-OAC"/>
+                                            <constraint firstItem="hQz-lR-bEm" firstAttribute="centerY" secondItem="Vdt-ug-DRJ" secondAttribute="centerY" id="QUu-M3-lp6"/>
+                                            <constraint firstItem="hQz-lR-bEm" firstAttribute="height" secondItem="Vdt-ug-DRJ" secondAttribute="height" id="dxo-VI-mbk"/>
+                                            <constraint firstItem="Bhz-va-Ogv" firstAttribute="centerX" secondItem="hQz-lR-bEm" secondAttribute="centerX" id="j6H-ZX-7pD"/>
+                                            <constraint firstItem="hQz-lR-bEm" firstAttribute="centerX" secondItem="Vdt-ug-DRJ" secondAttribute="centerX" id="tyc-Lw-3fo"/>
+                                            <constraint firstItem="Bhz-va-Ogv" firstAttribute="height" secondItem="hQz-lR-bEm" secondAttribute="height" id="u1z-7h-1Vz"/>
+                                        </constraints>
                                         <size key="customSize" width="70" height="70"/>
+                                        <connections>
+                                            <outlet property="imageContainerView" destination="hQz-lR-bEm" id="ETu-OC-NlQ"/>
+                                            <outlet property="userImageView" destination="Bhz-va-Ogv" id="D9q-qg-oRP"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -62,4 +85,7 @@
             <point key="canvasLocation" x="-535.20000000000005" y="198.35082458770617"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="noNameGirl" width="28" height="28"/>
+    </resources>
 </document>
