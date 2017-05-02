@@ -11,7 +11,7 @@
 
 @implementation UserCollectionViewCell
 
--(void)drawRect:(CGRect)rect {
+- (void)drawRect:(CGRect)rect {
     
     [super drawRect:rect];
     self.layer.cornerRadius = self.frame.size.width / 2;

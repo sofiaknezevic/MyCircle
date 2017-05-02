@@ -20,6 +20,7 @@
 #pragma mark - ViewController LifeCycle -
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self configureMyCircleVC];
 
 }
 
@@ -27,8 +28,6 @@
     [super didReceiveMemoryWarning];
     
 }
-
-
 
 #pragma mark - CollectionView Delegate & DataSource -
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -45,6 +44,13 @@
     
     UserCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"userCell" forIndexPath:indexPath];
     return cell;
+    
+}
+
+#pragma mark - Configuration -
+- (void)configureMyCircleVC {
+    
+    self.navigationItem.title = @"Parkinson's";
     
 }
 
