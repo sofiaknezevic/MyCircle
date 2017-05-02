@@ -27,7 +27,7 @@
                                 <color key="backgroundColor" red="0.91328519582748413" green="0.92544841766357422" blue="0.93367880582809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewLayout key="collectionViewLayout" id="257-jZ-Hgk" customClass="CircularCollectionViewLayout"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="userCell" id="Vdt-ug-DRJ">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="userCell" id="Vdt-ug-DRJ" customClass="UserCollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="104" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
