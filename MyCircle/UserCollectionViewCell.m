@@ -7,6 +7,7 @@
 //
 
 #import "UserCollectionViewCell.h"
+#import "User.h"
 
 @implementation UserCollectionViewCell
 

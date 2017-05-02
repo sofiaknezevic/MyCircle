@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08F82DE61EB8F0D40094CD73 /* TestingUsers.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 08F82DE51EB8F0D40094CD73 /* TestingUsers.JSON */; };
 		5D95D2991EB56740001C312B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2981EB56740001C312B /* main.m */; };
 		5D95D29C1EB56740001C312B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D29B1EB56740001C312B /* AppDelegate.m */; };
 		5D95D2A21EB56740001C312B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D95D2A01EB56740001C312B /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F82DE51EB8F0D40094CD73 /* TestingUsers.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestingUsers.JSON; path = ../../../TestingUsers.JSON; sourceTree = "<group>"; };
 		5D95D2941EB56740001C312B /* MyCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D95D2981EB56740001C312B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D95D29A1EB56740001C312B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				5D95D2A31EB56740001C312B /* Assets.xcassets */,
+				08F82DE51EB8F0D40094CD73 /* TestingUsers.JSON */,
 				5D95D2A81EB56740001C312B /* Info.plist */,
 				5D95D2981EB56740001C312B /* main.m */,
 			);
@@ -225,6 +228,7 @@
 				5DDF12051EB6BB1900EFF8D6 /* MyCircle.storyboard in Resources */,
 				5D95D2C01EB57B67001C312B /* Profile.storyboard in Resources */,
 				5D95D2A41EB56740001C312B /* Assets.xcassets in Resources */,
+				08F82DE61EB8F0D40094CD73 /* TestingUsers.JSON in Resources */,
 				5D95D2BC1EB57B55001C312B /* Programs.storyboard in Resources */,
 				5D95D2BE1EB57B5F001C312B /* MyHealth.storyboard in Resources */,
 				5D95D2A21EB56740001C312B /* Main.storyboard in Resources */,
