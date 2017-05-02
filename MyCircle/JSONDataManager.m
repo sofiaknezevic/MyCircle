@@ -10,4 +10,8 @@
 
 @implementation JSONDataManager
 
+- (void)populateUserArrayWithJSON {
+    
+}
+
 @end

@@ -51,9 +51,20 @@
 - (void)configureMyCircleVC {
     
     self.navigationItem.title = @"Parkinson's";
+    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
+                                                                                  target:self
+                                                                                  action:@selector(searchButtonClicked)];
+    searchButton.tintColor = [UIColor whiteColor];
+    self.navigationItem.leftBarButtonItem = searchButton;
+    
     
 }
 
-
+#pragma mark - Button Control -
+- (void)searchButtonClicked {
+    
+    NSLog(@"Search button has been clicked!");
+    
+}
 
 @end

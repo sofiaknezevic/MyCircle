@@ -10,4 +10,6 @@
 
 @interface JSONDataManager : NSObject
 
+@property (nonatomic) NSArray *userObjectsArray;
+
 @end
