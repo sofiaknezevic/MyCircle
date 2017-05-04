@@ -51,11 +51,27 @@
 - (void)configureMyCircleVC {
     
     self.navigationItem.title = @"Parkinson's";
+    
     UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
                                                                                   target:self
                                                                                   action:@selector(searchButtonClicked)];
+    
+    UIBarButtonItem *bellButton = [[UIBarButtonItem alloc] initWithTitle:@"B"
+                                                                   style:UIBarButtonItemStylePlain
+                                                                  target:self
+                                                                  action:@selector(rightBarButtonsClicked)];
+    
+    UIBarButtonItem *messageButton = [[UIBarButtonItem alloc] initWithTitle:@"M"
+                                                                   style:UIBarButtonItemStylePlain
+                                                                  target:self
+                                                                  action:@selector(rightBarButtonsClicked)];
+    
     searchButton.tintColor = [UIColor whiteColor];
+    bellButton.tintColor = [UIColor whiteColor];
+    messageButton.tintColor = [UIColor whiteColor];
+    
     self.navigationItem.leftBarButtonItem = searchButton;
+    self.navigationItem.rightBarButtonItems = @[bellButton, messageButton];
     
     
 }
@@ -64,6 +80,13 @@
 - (void)searchButtonClicked {
     
     self.navigationItem.titleView = [[UISearchBar alloc] init];
+    
+}
+
+//non-functional so just a log statement to show that the buttons do work
+- (void)rightBarButtonsClicked {
+    
+    NSLog(@"One of the right bar buttons has been clicked!");
     
 }
 
