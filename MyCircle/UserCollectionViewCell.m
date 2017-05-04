@@ -11,7 +11,6 @@
 
 @interface UserCollectionViewCell()
 
-@property (weak, nonatomic) IBOutlet UIView *imageContainerView;
 @property (weak, nonatomic) IBOutlet UIImageView *userImageView;
 
 
@@ -30,12 +29,9 @@
 
 - (void)configureCellImageView {
     
-    self.imageContainerView.layer.borderWidth = 2;
-    self.imageContainerView.layer.masksToBounds = false;
-    self.imageContainerView.layer.borderColor = [UIColor whiteColor].CGColor;
-    self.imageContainerView.layer.cornerRadius = self.userImageView.frame.size.width;
-    self.imageContainerView.clipsToBounds = true;
-    
+    self.userImageView.layer.masksToBounds = false;
+    self.userImageView.layer.borderWidth = 5;
+    self.userImageView.layer.borderColor = [UIColor whiteColor].CGColor;
 }
 
 @end
