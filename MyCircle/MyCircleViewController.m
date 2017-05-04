@@ -63,7 +63,7 @@
 #pragma mark - Button Control -
 - (void)searchButtonClicked {
     
-    NSLog(@"Search button has been clicked!");
+    self.navigationItem.titleView = [[UISearchBar alloc] init];
     
 }
 
