@@ -57,6 +57,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     UserCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"userCell" forIndexPath:indexPath];
+    [cell configureCellWithUser:[self.dataManager.userObjectsArray objectAtIndex:indexPath.item]];
     return cell;
     
 }

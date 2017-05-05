@@ -40,24 +40,34 @@
                                                     <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-gM-oXN" userLabel="Has Accepted Image View">
-                                                    <rect key="frame" x="7" y="7" width="56" height="56"/>
+                                                    <rect key="frame" x="21" y="21" width="28" height="28"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5w-ze-rp1" userLabel="Name Label">
+                                                    <rect key="frame" x="35" y="57" width="0.0" height="0.0"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="j5w-ze-rp1" firstAttribute="centerX" secondItem="Bhz-va-Ogv" secondAttribute="centerX" id="1U6-Kh-kAU"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="centerY" secondItem="Vdt-ug-DRJ" secondAttribute="centerY" id="GgN-bf-30F"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="height" secondItem="Vdt-ug-DRJ" secondAttribute="height" id="Sfg-4t-wbg"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="width" secondItem="Vdt-ug-DRJ" secondAttribute="width" id="Vbo-rD-bja"/>
                                             <constraint firstItem="Uik-gM-oXN" firstAttribute="centerX" secondItem="Bhz-va-Ogv" secondAttribute="centerX" id="WFs-xy-5pM"/>
+                                            <constraint firstItem="j5w-ze-rp1" firstAttribute="bottom" secondItem="Bhz-va-Ogv" secondAttribute="bottom" constant="-13" id="ac1-eA-rQy"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="centerX" secondItem="Vdt-ug-DRJ" secondAttribute="centerX" id="dS8-Lc-V62"/>
-                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="width" secondItem="Bhz-va-Ogv" secondAttribute="width" multiplier="0.8" id="eZz-Md-EgG"/>
+                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="width" secondItem="Bhz-va-Ogv" secondAttribute="width" multiplier="0.4" id="eZz-Md-EgG"/>
                                             <constraint firstItem="Uik-gM-oXN" firstAttribute="centerY" secondItem="Bhz-va-Ogv" secondAttribute="centerY" id="ge0-xx-4N6"/>
-                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="height" secondItem="Bhz-va-Ogv" secondAttribute="height" multiplier="0.8" id="kHX-yN-2Zd"/>
+                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="height" secondItem="Bhz-va-Ogv" secondAttribute="height" multiplier="0.4" id="kHX-yN-2Zd"/>
                                         </constraints>
                                         <size key="customSize" width="70" height="70"/>
                                         <connections>
+                                            <outlet property="userHasAcceptedImageView" destination="Uik-gM-oXN" id="wAT-5n-XKd"/>
                                             <outlet property="userImageView" destination="Bhz-va-Ogv" id="D9q-qg-oRP"/>
+                                            <outlet property="userNameLabel" destination="j5w-ze-rp1" id="m7R-Rv-0DS"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

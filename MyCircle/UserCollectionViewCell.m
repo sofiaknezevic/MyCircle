@@ -7,11 +7,12 @@
 //
 
 #import "UserCollectionViewCell.h"
-#import "User.h"
 
 @interface UserCollectionViewCell()
 
 @property (weak, nonatomic) IBOutlet UIImageView *userImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *userHasAcceptedImageView;
+@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
 
 
 @end
@@ -23,15 +24,21 @@
     
     [super drawRect:rect];
     self.layer.cornerRadius = self.frame.size.width / 2;
-    [self configureCellImageView];
     
 }
 
-- (void)configureCellImageView {
+- (void)configureCellWithUser:(User *)myCircleUser {
     
-    self.userImageView.layer.masksToBounds = false;
-    self.userImageView.layer.borderWidth = 5;
-    self.userImageView.layer.borderColor = [UIColor whiteColor].CGColor;
+    if (!myCircleUser.hasAccepted) {
+        
+        self.userHasAcceptedImageView.image = [UIImage imageNamed:@"notAcceptedClock"];
+        
+    }
+    
+    self.userImageView.image = [UIImage imageNamed:myCircleUser.userImageName];
+    self.userNameLabel.text = myCircleUser.displayName;
+    
+
 }
 
 @end

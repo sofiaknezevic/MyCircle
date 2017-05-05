@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
 @interface UserCollectionViewCell : UICollectionViewCell
+
+- (void)configureCellWithUser:(User *)myCircleUser;
 
 @end
