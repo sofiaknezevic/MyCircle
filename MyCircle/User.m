@@ -10,13 +10,11 @@
 
 @interface User()
 
-
-
 @end
 
 @implementation User
 
-- (instancetype)initWithName:(NSString *)displayName isOnlineIndicator:(BOOL)isOnline hasAcceptedIndicator:(BOOL)hasAccepted notificationCount:(int)notificationCount userImageName:(NSString *)userImageName
+- (instancetype)initWithName:(NSString *)displayName isOnlineIndicator:(BOOL)isOnline hasAcceptedIndicator:(BOOL)hasAccepted notificationCount:(NSNumber *)notificationCount userImageName:(NSString *)userImageName
 {
     self = [super init];
     if (self) {

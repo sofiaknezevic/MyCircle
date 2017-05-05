@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0818F3F21EBBEFB500505BBB /* TestingUsers.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 0818F3F11EBBEFB500505BBB /* TestingUsers.JSON */; };
 		08F82DE91EB900620094CD73 /* JSONDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F82DE81EB900620094CD73 /* JSONDataManager.m */; };
 		5D95D2991EB56740001C312B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D2981EB56740001C312B /* main.m */; };
 		5D95D29C1EB56740001C312B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D95D29B1EB56740001C312B /* AppDelegate.m */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0818F3F11EBBEFB500505BBB /* TestingUsers.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestingUsers.JSON; path = ../../../TestingUsers.JSON; sourceTree = "<group>"; };
 		08F82DE71EB900620094CD73 /* JSONDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDataManager.h; sourceTree = "<group>"; };
 		08F82DE81EB900620094CD73 /* JSONDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataManager.m; sourceTree = "<group>"; };
 		5D95D2941EB56740001C312B /* MyCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 		5D95D2971EB56740001C312B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0818F3F11EBBEFB500505BBB /* TestingUsers.JSON */,
 				5D95D2A31EB56740001C312B /* Assets.xcassets */,
 				5D95D2A81EB56740001C312B /* Info.plist */,
 				5D95D2981EB56740001C312B /* main.m */,
@@ -230,6 +233,7 @@
 				5DDF12051EB6BB1900EFF8D6 /* MyCircle.storyboard in Resources */,
 				5D95D2C01EB57B67001C312B /* Profile.storyboard in Resources */,
 				5D95D2A41EB56740001C312B /* Assets.xcassets in Resources */,
+				0818F3F21EBBEFB500505BBB /* TestingUsers.JSON in Resources */,
 				5D95D2BC1EB57B55001C312B /* Programs.storyboard in Resources */,
 				5D95D2BE1EB57B5F001C312B /* MyHealth.storyboard in Resources */,
 				5D95D2A21EB56740001C312B /* Main.storyboard in Resources */,

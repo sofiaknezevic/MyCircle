@@ -10,12 +10,14 @@
 
 @interface User : NSObject
 
-@property (nonatomic) NSString *displayName;
+@property (nonatomic, copy) NSString *displayName;
 @property (nonatomic) BOOL isOnline;
 @property (nonatomic) BOOL hasAccepted;
-@property (nonatomic) int notificationCount;
+@property (nonatomic, strong) NSNumber *notificationCount;
 
 //This imageName property is only for testing purposes. In production stage there would have to be logic added to incorporate users picking their own images.
-@property (nonatomic) NSString *userImageName;
+@property (nonatomic, copy) NSString *userImageName;
+
+- (instancetype)initWithName:(NSString *)displayName isOnlineIndicator:(BOOL)isOnline hasAcceptedIndicator:(BOOL)hasAccepted notificationCount:(NSNumber *)notificationCount userImageName:(NSString *)userImageName;
 
 @end
