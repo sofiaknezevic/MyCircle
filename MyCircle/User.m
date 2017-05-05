@@ -10,8 +10,6 @@
 
 @interface User()
 
-
-
 @end
 
 @implementation User

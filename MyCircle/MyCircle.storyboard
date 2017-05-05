@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,6 +39,9 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                                                     <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                                                 </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-gM-oXN" userLabel="Has Accepted Image View">
+                                                    <rect key="frame" x="7" y="7" width="56" height="56"/>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,7 +49,11 @@
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="centerY" secondItem="Vdt-ug-DRJ" secondAttribute="centerY" id="GgN-bf-30F"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="height" secondItem="Vdt-ug-DRJ" secondAttribute="height" id="Sfg-4t-wbg"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="width" secondItem="Vdt-ug-DRJ" secondAttribute="width" id="Vbo-rD-bja"/>
+                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="centerX" secondItem="Bhz-va-Ogv" secondAttribute="centerX" id="WFs-xy-5pM"/>
                                             <constraint firstItem="Bhz-va-Ogv" firstAttribute="centerX" secondItem="Vdt-ug-DRJ" secondAttribute="centerX" id="dS8-Lc-V62"/>
+                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="width" secondItem="Bhz-va-Ogv" secondAttribute="width" multiplier="0.8" id="eZz-Md-EgG"/>
+                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="centerY" secondItem="Bhz-va-Ogv" secondAttribute="centerY" id="ge0-xx-4N6"/>
+                                            <constraint firstItem="Uik-gM-oXN" firstAttribute="height" secondItem="Bhz-va-Ogv" secondAttribute="height" multiplier="0.8" id="kHX-yN-2Zd"/>
                                         </constraints>
                                         <size key="customSize" width="70" height="70"/>
                                         <connections>

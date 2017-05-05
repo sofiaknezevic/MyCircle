@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "User.h"
 
 @interface JSONDataManager : NSObject
 
-@property (nonatomic) NSArray *userObjectsArray;
+@property (nonatomic, strong) NSArray *userObjectsArray;
+@property (nonatomic, strong) User *loggedInUser;
 
 @end

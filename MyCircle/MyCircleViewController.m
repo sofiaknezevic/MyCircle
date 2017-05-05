@@ -8,19 +8,33 @@
 
 #import "MyCircleViewController.h"
 #import "UserCollectionViewCell.h"
+#import "JSONDataManager.h"
+#import "User.h"
 
 @interface MyCircleViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *circularCollectionView;
+@property (nonatomic, strong) JSONDataManager *dataManager;
 
 @end
 
 @implementation MyCircleViewController
 
 #pragma mark - ViewController LifeCycle -
+- (void)viewWillAppear:(BOOL)animated {
+    
+    
+    
+    [super viewWillAppear:true];
+    
+}
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     [self configureMyCircleVC];
+    [self addViewForLoggedInUser];
+    
+    self.dataManager = [[JSONDataManager alloc] init];
 
 }
 
@@ -37,7 +51,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     
-    return 8;
+    return self.dataManager.userObjectsArray.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -61,6 +75,7 @@
                                                                   target:self
                                                                   action:@selector(rightBarButtonsClicked)];
     
+    
     UIBarButtonItem *messageButton = [[UIBarButtonItem alloc] initWithTitle:@"M"
                                                                    style:UIBarButtonItemStylePlain
                                                                   target:self
@@ -71,8 +86,13 @@
     messageButton.tintColor = [UIColor whiteColor];
     
     self.navigationItem.leftBarButtonItem = searchButton;
-    self.navigationItem.rightBarButtonItems = @[bellButton, messageButton];
+    self.navigationItem.rightBarButtonItems = @[messageButton, bellButton];
     
+    
+}
+
+- (void)addViewForLoggedInUser {
+
     
 }
 

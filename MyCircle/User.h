@@ -18,4 +18,6 @@
 //This imageName property is only for testing purposes. In production stage there would have to be logic added to incorporate users picking their own images.
 @property (nonatomic, copy) NSString *userImageName;
 
+- (instancetype)initWithName:(NSString *)displayName isOnlineIndicator:(BOOL)isOnline hasAcceptedIndicator:(BOOL)hasAccepted notificationCount:(NSNumber *)notificationCount userImageName:(NSString *)userImageName;
+
 @end
